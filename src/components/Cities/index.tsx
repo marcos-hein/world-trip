@@ -12,13 +12,6 @@ export function Cities(): JSX.Element {
         <CityCard />
         <CityCard />
         <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
       </Wrap>
     </Flex>
   );
