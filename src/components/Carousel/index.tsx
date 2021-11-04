@@ -1,5 +1,5 @@
-import Link, { LinkProps } from "next/link";
-import { Flex, Heading, Text, Link as ChakraLink } from "@chakra-ui/react";
+import Link from "next/link";
+import { Flex, Heading, Text } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 
