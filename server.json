@@ -1,0 +1,262 @@
+{
+  "continents": [
+    {
+      "id": "europa",
+      "name": "Europe",
+      "bannerUrl": "https://images.unsplash.com/photo-1543799382-9a0208331ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "info": {
+        "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+        "numberOfCountries": 50,
+        "languages": 60,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "Londres",
+          "cityImage": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+          "country": "Reino Unido",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_the_United_Kingdom_%282-3%29.svg/1200px-Flag_of_the_United_Kingdom_%282-3%29.svg.png"
+        },
+        {
+          "name": "Paris",
+          "cityImage": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "country": "França",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/2560px-Flag_of_France.svg.png"
+        },
+        {
+          "name": "Roma",
+          "cityImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1096&q=80",
+          "country": "Itália",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/1500px-Flag_of_Italy.svg.png"
+        },
+        {
+          "name": "Praga",
+          "cityImage": "https://images.unsplash.com/photo-1564511287568-54483b52a35e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+          "country": "República Tcheca",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/1200px-Flag_of_the_Czech_Republic.svg.png"
+        },
+        {
+          "name": "Amsterdã",
+          "cityImage": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+          "country": "Holanda",
+          "flagUrl": "https://www.netherlands-tourism.com/wp-content/uploads/2013/07/Flag-of-The-Netherlands3.png"
+        }
+      ]
+    },
+    {
+      "id": "america-do-norte",
+      "name": "América do Norte",
+      "bannerUrl": "https://images.unsplash.com/photo-1575089776834-8be34696ffb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+      "info": {
+        "bio": "O turismo na América do Norte é como um grande e variado cardápio. Há opções de cidades urbanas e cosmopolitas, desérticas, nevadas, outras para quem gosta de sossego, de baladas, de parques de diversão, de turismo de aventura.",
+        "numberOfCountries": 50,
+        "languages": 10,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "Orlando",
+          "cityImage": "https://images.unsplash.com/photo-1628784829843-bcec4843a3ee?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+          "country": "EUA",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/US_flag_large_51_stars.png/1024px-US_flag_large_51_stars.png"
+        },
+        {
+          "name": "Nova Iorque",
+          "cityImage": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+          "country": "EUA",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/US_flag_large_51_stars.png/1024px-US_flag_large_51_stars.png"
+        },
+        {
+          "name": "Vancouver",
+          "cityImage": "https://images.unsplash.com/photo-1559511260-66a654ae982a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1218&q=80",
+          "country": "Canadá",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flag_of_Canada.png"
+        },
+        {
+          "name": "Cancún",
+          "cityImage": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1400&q=80",
+          "country": "México",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/1/17/Flag_of_Mexico.png"
+        },
+        {
+          "name": "San Blas",
+          "cityImage": "https://images.unsplash.com/photo-1517154868524-c6b5fbd62a1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+          "country": "Panamá",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/2560px-Flag_of_Panama.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "america-do-sul",
+      "name": "América do Sul",
+      "bannerUrl": "https://images.unsplash.com/photo-1580619305218-8423a7ef79b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80",
+      "info": {
+        "bio": "",
+        "numberOfCountries": 50,
+        "languages": 60,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "Machu Picchu",
+          "cityImage": "https://images.unsplash.com/photo-1543385426-191664295b58?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1295&q=80",
+          "country": "Peru",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Flag_of_Peru_%28state%29.svg/1280px-Flag_of_Peru_%28state%29.svg.png"
+        },
+        {
+          "name": "Laguna Colorada",
+          "cityImage": "https://images.unsplash.com/photo-1544116542-e26189af12e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+          "country": "Bolívia",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/1280px-Flag_of_Bolivia_%28state%29.svg.png"
+        },
+        {
+          "name": "Gramado",
+          "cityImage": "https://images.unsplash.com/photo-1571456822459-c78741e9fc26?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80",
+          "country": "Brasil",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png"
+        },
+        {
+          "name": "Foz do Iguaçu",
+          "cityImage": "https://images.unsplash.com/photo-1555943665-ac3129ee2ba3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+          "country": "Brasil",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png"
+        },
+        {
+          "name": "Porto de Galinhas",
+          "cityImage": "https://images.unsplash.com/photo-1597259847845-d4737f7e8e46?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80",
+          "country": "Brasil",
+          "flagUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png"
+        }
+      ]
+    },
+    {
+      "id": "asia",
+      "name": "Ásia",
+      "bannerUrl": "",
+      "info": {
+        "bio": "",
+        "numberOfCountries": 50,
+        "languages": 60,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "name": "África",
+      "bannerUrl": "",
+      "info": {
+        "bio": "",
+        "numberOfCountries": 50,
+        "languages": 60,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "name": "Oceania",
+      "bannerUrl": "",
+      "info": {
+        "bio": "",
+        "numberOfCountries": 50,
+        "languages": 60,
+        "numberOfCities": 27
+      },
+      "cities": [
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        },
+        {
+          "name": "",
+          "cityImage": "",
+          "country": "",
+          "flagUrl": ""
+        }
+      ]
+    }
+  ]
+}
