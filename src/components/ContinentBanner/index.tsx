@@ -15,6 +15,7 @@ export function ContinentBanner({ name, url }: ContinentBannerProps): JSX.Elemen
       pb="14"
       bgImage={`url(${url})`}
       bgSize="cover"
+      bgPosition="center"
     >
       <Heading size="2xl" fontWeight="medium" color="gray.100">
         {name}

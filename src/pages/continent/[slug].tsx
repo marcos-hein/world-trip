@@ -1,5 +1,5 @@
 import { Flex, Text, Stack } from "@chakra-ui/react";
-import { GetServerSideProps } from "next";
+import { GetServerSideProps, GetStaticPaths, GetStaticProps } from "next";
 import { Cities } from "../../components/Cities";
 import { ContinentBanner } from "../../components/ContinentBanner";
 import { ContinentInfos } from "../../components/ContinentInfos";
@@ -55,8 +55,15 @@ export default function Continent({ name, bannerUrl, info, cities }: ContinentPr
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ req, query }) => {
-  const { slug } = query;
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [{ params: { slug: "europa" } }],
+    fallback: "blocking",
+  };
+};
+
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const { slug } = params;
   const res = await api(`continents/${slug}`);
   return {
     props: res.data,
