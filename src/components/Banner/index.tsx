@@ -1,18 +1,23 @@
-import { Flex, Heading, Text, Box, Image } from "@chakra-ui/react";
+import { Flex, Heading, Text, Box, Image, useBreakpointValue } from "@chakra-ui/react";
 
 export function Banner(): JSX.Element {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  });
+
   return (
     <Flex
       w="100%"
       align="center"
       justifyContent="space-between"
       h="335px"
-      px="36"
+      px={["4", "24", "36"]}
       bgImage="url('/banner.jpg')"
       bgSize="cover"
     >
       <Box maxWidth={524}>
-        <Heading fontWeight="medium" color="gray.100">
+        <Heading fontWeight="medium" fontSize={["20px", "36px"]} color="gray.100">
           5 Continentes,
           <br /> infinitas possibilidades.
         </Heading>
@@ -20,12 +25,14 @@ export function Banner(): JSX.Element {
           Chegou a hora de tirar do papel a viagem que você sempre sonhou.{" "}
         </Text>
       </Box>
-      <Image
-        w={["417px"]}
-        pt="24"
-        src="/airplane.svg"
-        alt="Um avião voando sobre o nome da marca world trip"
-      />
+      {isWideVersion && (
+        <Image
+          w="417px"
+          pt="24"
+          src="/airplane.svg"
+          alt="Um avião voando sobre o nome da marca world trip"
+        />
+      )}
     </Flex>
   );
 }
