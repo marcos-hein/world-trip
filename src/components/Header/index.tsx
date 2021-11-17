@@ -5,7 +5,15 @@ export function Header(): JSX.Element {
   const isContinentPage = true;
 
   return (
-    <Flex as="header" w="100%" h="24" mx="auto" px="6" align="center" justifyContent="center">
+    <Flex
+      as="header"
+      w="100%"
+      h={{ base: "12", md: "24" }}
+      mx="auto"
+      px="6"
+      align="center"
+      justifyContent="center"
+    >
       {isContinentPage && (
         <Flex w="100%" pl="140px" position="absolute">
           <Tooltip
@@ -23,7 +31,8 @@ export function Header(): JSX.Element {
         </Flex>
       )}
       <Image
-        w={["81px", "184px"]}
+        w={{ base: "81px", md: "184px" }}
+        h={{ base: "20px", md: "45px" }}
         src="/logo.svg"
         alt="Um avião voando sobre o nome da marca world trip"
       />

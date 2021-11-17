@@ -1,5 +1,5 @@
 import { Flex, Text, Stack } from "@chakra-ui/react";
-import { GetServerSideProps, GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticPaths, GetStaticProps } from "next";
 import { Cities } from "../../components/Cities";
 import { ContinentBanner } from "../../components/ContinentBanner";
 import { ContinentInfos } from "../../components/ContinentInfos";
