@@ -14,7 +14,13 @@ export default function Home(): JSX.Element {
 
       <Divider />
 
-      <Heading mx="auto" my="52px" fontWeight="medium" textAlign="center">
+      <Heading
+        mx="auto"
+        my={{ base: "24px", md: "52px" }}
+        fontWeight="medium"
+        textAlign="center"
+        fontSize={["xl", "3xl"]}
+      >
         Vamos nessa?
         <br /> Então escolha seu continente
       </Heading>
