@@ -13,10 +13,11 @@ interface CitiesProps {
 
 export function Cities({ cities }: CitiesProps): JSX.Element {
   return (
-    <Flex direction="column" px="140px" mb="9">
-      <Heading fontWeight="medium">Cidades +100</Heading>
-
-      <Wrap spacing="12" mt="12">
+    <Flex direction="column" mb="9" px={{ base: 4, lg: 36 }}>
+      <Heading fontWeight="medium" fontSize={{ base: "24px", lg: "36px" }}>
+        Cidades +100
+      </Heading>
+      <Wrap spacing={{ base: 4, lg: 12 }} mt="12" justify={{ base: "center", md: "inherit" }}>
         {cities.map(city => (
           <CityCard key={city.name} city={city} />
         ))}

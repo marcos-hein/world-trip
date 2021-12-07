@@ -28,15 +28,21 @@ export default function Continent({ name, bannerUrl, info, cities }: ContinentPr
   return (
     <>
       <Header />
-      <Stack spacing="20" mb="9">
+      <Stack spacing={{ base: 6, lg: 20 }} mb="9">
         <ContinentBanner name={name} url={bannerUrl} />
 
-        <Flex align="center" justifyContent="space-between" px="140px">
+        <Flex
+          direction={{ base: "column", lg: "row" }}
+          align="center"
+          justifyContent="center"
+          px={{ base: 4, lg: 36 }}
+        >
           <Text
             maxWidth={600}
-            fontSize="24px"
+            fontSize={{ base: "14px", lg: "24px" }}
             align="justify"
             textShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
+            mb={{ base: 4, lg: 0 }}
           >
             {info.bio}
           </Text>
@@ -47,9 +53,7 @@ export default function Continent({ name, bannerUrl, info, cities }: ContinentPr
           />
         </Flex>
 
-        <Flex>
-          <Cities cities={cities} />
-        </Flex>
+        <Cities cities={cities} />
       </Stack>
     </>
   );
