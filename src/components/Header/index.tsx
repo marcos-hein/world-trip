@@ -1,8 +1,10 @@
 import { Flex, Image, Icon, Button, Tooltip } from "@chakra-ui/react";
+import { useRouter } from "next/dist/client/router";
 import { FiChevronLeft } from "react-icons/fi";
 
 export function Header(): JSX.Element {
-  const isContinentPage = true;
+  const router = useRouter();
+  const isContinentPage = router.pathname.includes("continent") ?? true;
 
   return (
     <Flex
@@ -15,7 +17,7 @@ export function Header(): JSX.Element {
       justifyContent="center"
     >
       {isContinentPage && (
-        <Flex w="100%" pl="140px" position="absolute">
+        <Flex w="100%" pl={{ base: "16px", lg: "140px" }} position="absolute">
           <Tooltip
             label="Voltar"
             fontSize="md"
@@ -25,7 +27,12 @@ export function Header(): JSX.Element {
             borderColor="yellow.500"
           >
             <Button size="sm" variant="link">
-              <Icon as={FiChevronLeft} color="gray.600" w="7" h="7" />
+              <Icon
+                as={FiChevronLeft}
+                color="gray.600"
+                w={{ base: "5", lg: "7" }}
+                h={{ base: "5", lg: "7" }}
+              />
             </Button>
           </Tooltip>
         </Flex>
