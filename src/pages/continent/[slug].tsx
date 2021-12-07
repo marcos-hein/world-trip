@@ -34,7 +34,7 @@ export default function Continent({ name, bannerUrl, info, cities }: ContinentPr
         <Flex
           direction={{ base: "column", lg: "row" }}
           align="center"
-          justifyContent="center"
+          justifyContent="space-between"
           px={{ base: 4, lg: 36 }}
         >
           <Text

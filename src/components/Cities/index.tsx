@@ -17,7 +17,7 @@ export function Cities({ cities }: CitiesProps): JSX.Element {
       <Heading fontWeight="medium" fontSize={{ base: "24px", lg: "36px" }}>
         Cidades +100
       </Heading>
-      <Wrap spacing={{ base: 4, lg: 12 }} mt="12" justify={{ base: "center", md: "inherit" }}>
+      <Wrap spacing={{ base: 4, lg: 12 }} mt="12" justify={{ base: "center", lg: "inherit" }}>
         {cities.map(city => (
           <CityCard key={city.name} city={city} />
         ))}
