@@ -26,7 +26,7 @@ export function Header(): JSX.Element {
             border="1px"
             borderColor="yellow.500"
           >
-            <Button size="sm" variant="link">
+            <Button size="sm" variant="link" onClick={() => router.push("/")}>
               <Icon
                 as={FiChevronLeft}
                 color="gray.600"

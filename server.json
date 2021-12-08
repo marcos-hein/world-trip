@@ -3,7 +3,7 @@
     {
       "id": "europa",
       "name": "Europe",
-      "bannerUrl": "https://images.unsplash.com/photo-1543799382-9a0208331ef7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+      "bannerUrl": "https://images.unsplash.com/photo-1514896856000-91cb6de818e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "info": {
         "bio": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
         "numberOfCountries": 50,
@@ -132,7 +132,7 @@
     {
       "id": "asia",
       "name": "Ásia",
-      "bannerUrl": "",
+      "bannerUrl": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
       "info": {
         "bio": "",
         "numberOfCountries": 50,
@@ -175,7 +175,7 @@
     {
       "id": "africa",
       "name": "África",
-      "bannerUrl": "",
+      "bannerUrl": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
       "info": {
         "bio": "",
         "numberOfCountries": 50,
@@ -218,7 +218,7 @@
     {
       "id": "oceania",
       "name": "Oceania",
-      "bannerUrl": "",
+      "bannerUrl": "https://images.unsplash.com/photo-1462759353907-b2ea5ebd72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
       "info": {
         "bio": "",
         "numberOfCountries": 50,
